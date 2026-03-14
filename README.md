@@ -47,7 +47,7 @@ to finish (blue, yellow, green)
         6. Script is complete and close
         
 
-Outputs:
-    - Terminal Output: User will be prompted for inputs and additional information will be provided for operational clarity
-    - Still-plot of all explored nodes and path from start to goal
-    - animated GIF saved as "dijkstra_stephen_snelson.gif"
+## Outputs:
+    -Terminal Output: User will be prompted for inputs and additional information will be provided for operational clarity
+    -Still-plot of all explored nodes and path from start to goal
+    -Animated GIF saved as "dijkstra_stephen_snelson.gif"
