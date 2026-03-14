@@ -5,7 +5,7 @@ ENPM661-RO01 Planning for Autonomous Robots - Project 2 - Backwards Dijkstra sea
 
 ## Description:
 This program uses backwards djikstra search method to determine the fastest path of a point robot through a maze. The program creates a board
-through set equations of which spell out "SWS4074". Then prompts the user for the start and goal locations. It runs the provided nodes
+through set equations of which spell out "SWS4074". Then prompts the user for the start and goal locations. It checks the provided nodes
 to ensure they are not within the obstacles or the space the robot cannot reach due to its own dimensions. The planning algorithm then
 branches out from the goal node, where North, South, East, West have a cost of 1 and Northeast, Southeast, Northwest, Southwest have a cost of 
 1.4 (approximately sqrt(2)), until it reaches the start node. It then iterates through the data structure of lowest-cost-to-go parent nodes until it
