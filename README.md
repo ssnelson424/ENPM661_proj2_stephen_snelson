@@ -24,7 +24,7 @@ to finish (blue, yellow, green)
         - BW-dijkstra_stephen_snelson.py
         - animate_stephen_snelson.py
         - map_creation_stephen_snelson.py
-        -actions_stephen_snelson.py
+        - actions_stephen_snelson.py
     
     2. From terminal, change to focus on the previously chosen directory (cd...)
 
