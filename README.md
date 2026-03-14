@@ -41,12 +41,13 @@ to finish (blue, yellow, green)
            is a GIF showing the expanding explored nodes and then the creation of the optimal path from start to goal. User
            should enter Y or N based on their preference.
         
-        5. After a few moments, an animated plot will be saved in the chosen directory under "djikstra_stephen_snelson.gif". (No pop-up, outside of
+        5. After a few moments, an animated plot will be saved in the chosen directory under "dijkstra_stephen_snelson.gif". (No pop-up, outside of
            terminal link)
 
         6. Script is complete and close
         
 
 Outputs:
-    -Terminal Output: User will be prompted for inputs and additional information will be provided for operational clarity
-    
+    - Terminal Output: User will be prompted for inputs and additional information will be provided for operational clarity
+    - Still-plot of all explored nodes and path from start to goal
+    - animated GIF saved as "dijkstra_stephen_snelson.gif"
