@@ -18,6 +18,9 @@ to finish (blue, yellow, green)
         - Collections
         - Matplotlib.pyplot
         - Queue
+        - Numpy
+        - matplotlib.animation
+        - matplotlib.colors
 
 ## Run Instructions:
     1. Add the following to the chosen repository:
