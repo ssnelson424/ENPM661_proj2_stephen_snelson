@@ -1,7 +1,9 @@
 
 # **Stephen Snelson**
-##ENPM661-RO01 Planning for Autonomous Robots
-##Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
+
+ENPM661-RO01 Planning for Autonomous Robots
+
+Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
 
 ## Description:
 This program uses backwards djikstra search method to determine the fastest path of a point robot through a maze. The program creates a board
