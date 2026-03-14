@@ -1,6 +1,7 @@
 
 # **Stephen Snelson**
 ENPM661-RO01 Planning for Autonomous Robots
+
 Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
 
 ## Description:
