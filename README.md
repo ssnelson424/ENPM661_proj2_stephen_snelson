@@ -1,9 +1,9 @@
 
-# H1 **Stephen Snelson**
-# H1 ENPM661-RO01 Planning for Autonomous Robots
-# H1 Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
+# **Stephen Snelson**
+ENPM661-RO01 Planning for Autonomous Robots
+Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
 
-## H2 Description:
+## Description:
 This program uses backwards djikstra search method to determine the fastest path of a point robot through a maze. The program creates a board
 through set equations of which spell out "SWS4074". Then prompts the user for the start and goal locations. It runs the provided nodes
 to ensure they are not within the obstacles or the space the robot cannot reach due to its own dimensions. The planning algorithm then
@@ -12,14 +12,14 @@ branches out from the goal node, where North, South, East, West have a cost of 1
 returns to the start node again. It then provides a plot displaying the game board (black,red,white), the nodes explored(cyan), and the path from start
 to finish (blue, yellow, green)
 
-### H3 Dependencies:
+## Dependencies:
     Python 3.10+
     -Libraries used: 
         - Collections
         - Matplotlib.pyplot
         - Queue
 
-#### H4 Run Instructions:
+## Run Instructions:
     1. Add the following to the chosen repository:
         - BW-dijkstra_stephen_snelson.py
         - animate_stephen_snelson.py
