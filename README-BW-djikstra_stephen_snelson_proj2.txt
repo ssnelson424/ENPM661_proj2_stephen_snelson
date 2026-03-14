@@ -1,30 +1,30 @@
 
-# H1 **Stephen Snelson**
-# H1 ENPM661-RO01 Planning for Autonomous Robots
-# H1 Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
+# **Stephen Snelson**
 
-## H2 Description:
+ENPM661-RO01 Planning for Autonomous Robots - Project 2 - Backwards Dijkstra search and optimal pathfinding through spacial map
+
+## Description:
 This program uses backwards djikstra search method to determine the fastest path of a point robot through a maze. The program creates a board
-through set equations of which spell out "SWS4074". Then prompts the user for the start and goal locations. It runs the provided nodes
+through set equations of which spell out "SWS4074". Then prompts the user for the start and goal locations. It checks the provided nodes
 to ensure they are not within the obstacles or the space the robot cannot reach due to its own dimensions. The planning algorithm then
 branches out from the goal node, where North, South, East, West have a cost of 1 and Northeast, Southeast, Northwest, Southwest have a cost of 
 1.4 (approximately sqrt(2)), until it reaches the start node. It then iterates through the data structure of lowest-cost-to-go parent nodes until it
 returns to the start node again. It then provides a plot displaying the game board (black,red,white), the nodes explored(cyan), and the path from start
 to finish (blue, yellow, green)
 
-### H3 Dependencies:
+## Dependencies:
     Python 3.10+
     -Libraries used: 
         - Collections
         - Matplotlib.pyplot
         - Queue
 
-#### H4 Run Instructions:
+## Run Instructions:
     1. Add the following to the chosen repository:
         - BW-dijkstra_stephen_snelson.py
         - animate_stephen_snelson.py
         - map_creation_stephen_snelson.py
-        -actions_stephen_snelson.py
+        - actions_stephen_snelson.py
     
     2. From terminal, change to focus on the previously chosen directory (cd...)
 
@@ -41,12 +41,13 @@ to finish (blue, yellow, green)
            is a GIF showing the expanding explored nodes and then the creation of the optimal path from start to goal. User
            should enter Y or N based on their preference.
         
-        5. After a few moments, an animated plot will be saved in the chosen directory under "djikstra_stephen_snelson.gif". (No pop-up, outside of
+        5. After a few moments, an animated plot will be saved in the chosen directory under "dijkstra_stephen_snelson.gif". (No pop-up, outside of
            terminal link)
 
         6. Script is complete and close
         
 
-Outputs:
+## Outputs:
     -Terminal Output: User will be prompted for inputs and additional information will be provided for operational clarity
-    
+    -Still-plot of all explored nodes and path from start to goal
+    -Animated GIF saved as "dijkstra_stephen_snelson.gif"
